@@ -16,106 +16,225 @@ html, body {
 
 }
 
+
+.liste
+{
+  list-style-type: none;
+  color: black;
+	display: none;
+  text-align: center;
+  padding-bottom:50%;
+  padding-top:30%;
+  font-family: fantasy;
+  font-size:100%;
+}
+
+
+a
+{
+	text-decoration:none;     /*enlever le souligné*/
+}
+
+
 #cinématique
 {
+  content: url(skieur.jpg);
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
-  background-color: red;
-  border: solid yellow;
+  height: 3cm;                  /*/ taille variable /*/
+  border: solid white;
   margin-left: 3%;
   margin-right: 10%;
   margin-bottom: 20%;
   margin-top: 12%;
 
-
 }
+
+#cinématique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#cinématique:hover .liste
+{
+	display:block;
+}
+
+
 
 #thermodynamique
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-right: 10%;
   margin-bottom: 30%;
   margin-top: 12%;
+  content: url(thermo.jpg);
+}
 
+#thermodynamique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#thermodynamique:hover .liste
+{
+	display:block;
 }
 
 
 #équilibre
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-bottom: 20%;
   margin-top: 12%;
+  content: url(équilibre.jpg);
 }
 
+#équilibre:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#équilibre:hover .liste
+{
+	display:block;
+}
 
 #frottement
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-left: 3%;
   margin-right: 10%;
   margin-bottom: 20%;
+  content: url(frottement.jpg);
 }
 
+#frottement:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#frottement:hover .liste
+{
+	display:block;
+}
 
 #gravitation
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-right: 10%;
   margin-bottom: 20%;
+  content: url(gravity.jpg);
+}
+
+#gravitation:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#gravitation:hover .liste
+{
+	display:block;
 }
 
 #énergétique
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-bottom: 20%;
+  content: url(énergie.jpg);
 }
 
+#énergétique:hover
+{
+	background-color:white;
+  content: none;
+}
 
+#énergétique:hover .liste
+{
+	display:block;
+}
 
 #oscillation
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-left: 3%;
   margin-right: 10%;
+  content: url(pendule.jpg);
 }
 
+#oscillation:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#oscillation:hover .liste
+{
+	display:block;
+}
 
 #onde
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
   margin-right: 10%;
   margin-top:10%;
+  content: url(onde.jpg);
 }
 
+#onde:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#onde:hover .liste
+{
+	display:block;
+}
 
 
 #accoustique
 {
   width: 20%;
-  height: 2cm;                  /*/ taille variable /*/
+  height: 3cm;                  /*/ taille variable /*/
   background-color: red;
-  border: solid yellow;
+  border: solid white;
+  content: url(son.jpg);
+}
 
+#accoustique:hover
+{
+	background-color:white;
+  content: none;
+}
 
+#accoustique:hover .liste
+{
+	display:block;
 }
