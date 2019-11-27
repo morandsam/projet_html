@@ -1,24 +1,121 @@
 
-body
-{
-  margin:0
+html, body {
+   height:100%;
 }
 
 
-#header
+
+#global_container
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
-  background-color: blue;
-  width: 100%;
-  height: 5cm;
+  align-items: center;
+  flex-wrap: wrap;
+
 
 }
 
-.link1
+#cinématique
 {
   width: 20%;
   height: 2cm;                  /*/ taille variable /*/
   background-color: red;
+  border: solid yellow;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  margin-top: 12%;
+
+
+}
+
+#thermodynamique
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-right: 10%;
+  margin-bottom: 30%;
+  margin-top: 12%;
+
+}
+
+
+#équilibre
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-bottom: 20%;
+  margin-top: 12%;
+}
+
+
+#frottement
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+
+#gravitation
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+#énergétique
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-bottom: 20%;
+}
+
+
+
+#oscillation
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-left: 3%;
+  margin-right: 10%;
+}
+
+
+#onde
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+  margin-right: 10%;
+  margin-top:10%;
+}
+
+
+
+#accoustique
+{
+  width: 20%;
+  height: 2cm;                  /*/ taille variable /*/
+  background-color: red;
+  border: solid yellow;
+
+
 }
