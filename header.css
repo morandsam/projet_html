@@ -9,6 +9,9 @@ body {
   min-height: 100%;
   padding: 0 10px;
   margin: 0 auto;
+  background-image: url(parallax.jpg);
+  background-position: center;
+  background-size:cover;
 }
 
 #global_container
@@ -26,11 +29,12 @@ body {
 .liste
 {
   list-style-type: none;
-  color: black;
+  color: #333;
 	display: none;
   text-align: center;
   padding-top:1.50cm;
-  font-family: "Lato", sans-serif, ;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
   font-size:100%;
 }
 
@@ -52,12 +56,14 @@ a
   margin-right: 10%;
   margin-bottom: 20%;
   margin-top: 5%;
+  -webkit-transition: all 0.3s ease;
 }
 
 #cinématique:hover
 {
-	background-color:white;
+  background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #cinématique:hover .liste
@@ -76,12 +82,14 @@ a
   margin-bottom: 30%;
   margin-top: 5%;
   content: url(thermo.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #thermodynamique:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #thermodynamique:hover .liste
@@ -99,12 +107,14 @@ a
   margin-bottom: 20%;
   margin-top: 5%;
   content: url(équilibre.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #équilibre:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #équilibre:hover .liste
@@ -122,12 +132,14 @@ a
   margin-right: 10%;
   margin-bottom: 20%;
   content: url(rocket.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #dynamique:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #dynamique:hover .liste
@@ -144,12 +156,14 @@ a
   margin-right: 10%;
   margin-bottom: 20%;
   content: url(gravity.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #gravitation:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #gravitation:hover .liste
@@ -165,12 +179,14 @@ a
   border: solid white;
   margin-bottom: 20%;
   content: url(énergie.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #énergétique:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #énergétique:hover .liste
@@ -187,12 +203,14 @@ a
   margin-left: 3%;
   margin-right: 10%;
   content: url(pendule.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #oscillation:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #oscillation:hover .liste
@@ -209,12 +227,14 @@ a
   margin-right: 10%;
   margin-top:10%;
   content: url(wifi.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #onde:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #onde:hover .liste
@@ -230,12 +250,14 @@ a
   background-color: rgb(1,1,1,0);
   border: solid white;
   content: url(accoustique.png);
+  -webkit-transition: all 0.3s ease;
 }
 
 #accoustique:hover
 {
 	background-color:white;
   content: none;
+  box-shadow: 0px 0px 10px 4px #FFC784
 }
 
 #accoustique:hover .liste
@@ -244,6 +266,13 @@ a
 }
 
 @media screen and (max-width:850px) {
+
+
+  body
+  {
+    background-image:url(parallax_turn.jpg);
+    background-size:auto;
+  }
 
   #global_container
   {
