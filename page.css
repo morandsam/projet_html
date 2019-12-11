@@ -5,7 +5,6 @@
   width:45%;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .proprietes
@@ -52,4 +51,13 @@ h4
   .proprietes{width:90%}
   .lois{width:90%}
   .page{flex-direction: column;}
+  .video{width:90%}
+}
+
+.video{
+  background-color:black;
+  width: 45%;
+  border: medium solid #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
