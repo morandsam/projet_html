@@ -69,7 +69,7 @@ label {
     background-color: #f1f1f1;
 }
 #aside:hover{
-    box-shadow: 0px 0px 25px 5px #0CFFE1;
+    box-shadow: 0px 0px 10px 1px #0CFFE1;
 }
 ul{
     list-style-type: none;
@@ -89,6 +89,8 @@ center{
 }
 
 
+
+
 .parallax {
   /* The image used */
   background-image: url("parallax.jpg");
@@ -103,10 +105,67 @@ center{
   background-size: cover;
 }
 
+.observables
+{
+  background-color: #f1f1f1;
+  border: medium solid #333;
+  width:45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.proprietes
+{
+  background-color: #f1f1f1;
+  border: medium solid #333;
+  width:45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lois
+{
+  background-color: #f1f1f1;
+  border: medium solid #333;
+  width:50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page
+{
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: justify;
+  top:70px;
+  width:calc(100% - 200.5px);
+}
+
+h4
+{
+  display:flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1000px){
+    .observables{width:90%}
+    .proprietes{width:90%}
+    .lois{width:90%}
+    .page{flex-direction: column;
+          align-items:center;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #menu {
       max-height:0px;
       position:absolute;
+      border: 0px solid #e7e7e7;
+
 
     }
 
@@ -127,5 +186,10 @@ center{
     }
     #aside{
         display : none;
+    }
+    .page{
+        flex-direction: column;
+        align-items:center;
+        width:100%;
     }
 }
