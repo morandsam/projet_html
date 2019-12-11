@@ -47,7 +47,7 @@ a
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
   border: solid white;
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   margin-left: 3%;
   margin-right: 10%;
   margin-bottom: 20%;
@@ -70,7 +70,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-right: 10%;
   margin-bottom: 30%;
@@ -94,7 +94,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-bottom: 20%;
   margin-top: 5%;
@@ -116,7 +116,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-left: 3%;
   margin-right: 10%;
@@ -139,7 +139,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-right: 10%;
   margin-bottom: 20%;
@@ -161,7 +161,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-bottom: 20%;
   content: url(énergie.png);
@@ -182,7 +182,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-left: 3%;
   margin-right: 10%;
@@ -204,7 +204,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   margin-right: 10%;
   margin-top:10%;
@@ -227,7 +227,7 @@ a
 {
   width: 4cm;
   height: 3.5cm;                  /*/ taille variable /*/
-  background-color: black;
+  background-color: rgb(1,1,1,0);
   border: solid white;
   content: url(accoustique.png);
 }
@@ -308,10 +308,11 @@ a
 
   #accoustique
   {
-    margin-top:10%;
-    margin-bottom:5%;
-    margin-left:50%;
-    margin-right:50%;
+    display: table;
+    margin-left:5%;
+    margin-right:7%;
+    margin-bottom:25%;
+    margin-top:17%;
   }
 
 
