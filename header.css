@@ -1,0 +1,399 @@
+
+html, body {
+   height:100%;
+   margin:0;
+   padding: 0;
+}
+
+body {
+  min-height: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#global_container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 750px;
+  margin:0 auto;
+}
+
+
+.liste
+{
+  list-style-type: none;
+  color: black;
+	display: none;
+  text-align: center;
+  padding-top:1.50cm;
+  font-family: "Lato", sans-serif, ;
+  font-size:100%;
+}
+
+
+a
+{
+	text-decoration:none;     /*enlever le souligné*/
+}
+
+
+#cinématique
+{
+  content: url(cinématique.png);
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  border: solid white;
+  background-color: black;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+#cinématique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#cinématique:hover .liste
+{
+	display:block;
+}
+
+
+#thermodynamique
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-right: 10%;
+  margin-bottom: 30%;
+  margin-top: 5%;
+  content: url(thermo.png);
+}
+
+#thermodynamique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#thermodynamique:hover .liste
+{
+	display:block;
+}
+
+
+#équilibre
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  content: url(équilibre.png);
+}
+
+#équilibre:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#équilibre:hover .liste
+{
+	display:block;
+}
+
+#dynamique
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  content: url(rocket.png);
+}
+
+#dynamique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#dynamique:hover .liste
+{
+	display:block;
+}
+
+#gravitation
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  content: url(gravity.png);
+}
+
+#gravitation:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#gravitation:hover .liste
+{
+	display:block;
+}
+
+#énergétique
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-bottom: 20%;
+  content: url(énergie.png);
+}
+
+#énergétique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#énergétique:hover .liste
+{
+	display:block;
+}
+
+#oscillation
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-left: 3%;
+  margin-right: 10%;
+  content: url(pendule.png);
+}
+
+#oscillation:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#oscillation:hover .liste
+{
+	display:block;
+}
+
+#onde
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  margin-right: 10%;
+  margin-top:10%;
+  content: url(wifi.png);
+}
+
+#onde:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#onde:hover .liste
+{
+	display:block;
+}
+
+
+#accoustique
+{
+  width: 4cm;
+  height: 3.5cm;                  /*/ taille variable /*/
+  background-color: black;
+  border: solid white;
+  content: url(accoustique.png);
+}
+
+#accoustique:hover
+{
+	background-color:white;
+  content: none;
+}
+
+#accoustique:hover .liste
+{
+	display:block;
+}
+
+@media screen and (max-width:850px) {
+
+  #global_container
+  {
+    width: 100%;
+  }
+
+
+  #cinématique
+  {
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    margin-top: 5%;
+  }
+
+
+  #thermodynamique
+  {
+    margin-bottom: 20%;
+    margin-top: 5%;
+  }
+
+  #équilibre
+  {
+    margin-bottom: 25%;
+    margin-left:10%;
+    margin-right:17.5%
+  }
+
+
+  #dynamique
+  {
+    margin-bottom: 20%;
+
+  }
+
+  #gravitation
+  {
+    margin-left: 4%;
+    margin-right:20%;
+    margin-bottom: 15%;
+  }
+
+  #énergétique
+  {
+    margin-bottom: 15%;
+    margin-right:5%;
+  }
+
+  #oscillation
+  {
+    margin-right:19%;
+    margin-left:8%;
+  }
+
+  #onde
+  {
+    margin-right: %;
+    margin-left:1%;
+    margin-bottom:10%;
+  }
+
+  #accoustique
+  {
+    margin-top:10%;
+    margin-bottom:5%;
+    margin-left:50%;
+    margin-right:50%;
+  }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+
+  #global_container
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+
+  #cinématique
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+    margin-top:20%;
+  }
+
+  #thermodynamique
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+
+  }
+
+
+  #équilibre
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+
+  }
+
+
+  #dynamique
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
+
+
+  #gravitation
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
+
+  #énergétique
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
+
+  #oscillation
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
+
+  #onde
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
+
+  #accoustique
+  {
+    display: table;
+    margin: 0 auto;
+    margin-bottom:25%;
+  }
