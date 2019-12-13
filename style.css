@@ -94,9 +94,10 @@ center{
 .parallax {
   /* The image used */
   background-image: url("parallax.jpg");
+  background-color:#333;
 
   /* Set a specific height */
-  min-height: calc(100% - 80px);
+  min-height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -140,16 +141,17 @@ center{
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: justify;
-  top:70px;
+  top :70px;
   width:calc(100% - 200.5px);
 }
 
 .video{
   background-color:black;
   width: 45%;
-  border: medium solid #333;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 2px  #FFC784;
+  overflow:hidden;
 }
 
 h4
@@ -160,11 +162,22 @@ h4
 .footer{
     left: 0;
     bottom: 0;
-    width: 100%;
-    height:80px;
+    width: calc(100% - 40px);
+    height:25px;
     background-color: #333;
     color: white;
     text-align: center;
+    font-size:20px;
+    padding:20px;
+}
+
+header{
+    position:absolute;
+    top:47px;
+    height:200px;
+    background-color:#f1f1f1;
+    color:#333;
+    font-size:100px;
 }
 
 
@@ -172,6 +185,7 @@ h4
     .observables{width:90%}
     .proprietes{width:90%}
     .lois{width:90%}
+    .video{width:90%;max-height:200px;}
     .page{flex-direction: column;
           align-items:center;
     }
@@ -187,7 +201,7 @@ h4
     }
 
     .video{width:90%}
-    
+
     li a {
         float: none;
         padding: 8px 16px;
